@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Arial20.spritefont</Source>
+      <Name>Arial20</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\bin\x86\Debug\Content\Arial20.xnb</Output>
+      <Time>2015-03-22T12:29:48.0193863+00:00</Time>
+    </Item>
+    <Item>
+      <Source>burger.png</Source>
+      <Name>burger</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\bin\x86\Debug\Content\burger.xnb</Output>
+      <Time>2015-03-22T12:29:48.158146+00:00</Time>
+    </Item>
+    <Item>
+      <Source>explosion.png</Source>
+      <Name>explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\bin\x86\Debug\Content\explosion.xnb</Output>
+      <Time>2015-03-22T12:29:48.2731681+00:00</Time>
+    </Item>
+    <Item>
+      <Source>frenchfries.png</Source>
+      <Name>frenchfries</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\bin\x86\Debug\Content\frenchfries.xnb</Output>
+      <Time>2015-03-22T12:29:48.398199+00:00</Time>
+    </Item>
+    <Item>
+      <Source>teddybear.png</Source>
+      <Name>teddybear</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\bin\x86\Debug\Content\teddybear.xnb</Output>
+      <Time>2015-03-22T12:29:48.5075446+00:00</Time>
+    </Item>
+    <Item>
+      <Source>teddybearprojectile.png</Source>
+      <Name>teddybearprojectile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\bin\x86\Debug\Content\teddybearprojectile.xnb</Output>
+      <Time>2015-03-22T12:29:48.6376815+00:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\BurgerDamage.wav</Source>
+      <Name>sounds\BurgerDamage</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerDamage.xnb</Output>
+      <Time>2015-03-22T12:29:48.7536638+00:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\BurgerDeath.wav</Source>
+      <Name>sounds\BurgerDeath</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerDeath.xnb</Output>
+      <Time>2015-03-22T12:29:48.8786968+00:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\BurgerShot.wav</Source>
+      <Name>sounds\BurgerShot</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerShot.xnb</Output>
+      <Time>2015-03-22T12:29:48.9724033+00:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\Explosion.wav</Source>
+      <Name>sounds\Explosion</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\Explosion.xnb</Output>
+      <Time>2015-03-22T12:29:49.1353511+00:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\TeddyBounce.wav</Source>
+      <Name>sounds\TeddyBounce</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\TeddyBounce.xnb</Output>
+      <Time>2015-03-22T12:29:49.2251417+00:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\TeddyShot.wav</Source>
+      <Name>sounds\TeddyShot</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\TeddyShot.xnb</Output>
+      <Time>2015-03-22T12:29:49.3501121+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{23BA06A9-4247-4430-BF55-508C743550A6}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProjectContent\</RootDirectory>
+      <LoggerRootDirectory>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\</LoggerRootDirectory>
+      <IntermediateDirectory>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>c:\users\mel\documents\visual studio 2013\Projects\GameProject\GameProject\GameProject\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-02-27T12:58:46.0977957+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
