@@ -143,9 +143,9 @@ namespace GameProject
             }
             
             // check and resolve collisions between teddy bears
-            for (int i = 0; i < bears.Count - 1; i++)
+            for (int i = 0; i < bears.Count; i++)
             {
-                for (int j = i+1; j < bears.Count - 1; j++)
+                for (int j = i+1; j < bears.Count; j++)
                 {
                     if (bears[i].Active && bears[j].Active)
                     {
