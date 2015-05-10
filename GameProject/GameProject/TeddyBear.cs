@@ -148,9 +148,8 @@ namespace GameProject
                 Projectile teddyProjectile = new Projectile(ProjectileType.TeddyBear, Game1.GetProjectileSprite(ProjectileType.TeddyBear),
                     drawRectangle.Center.X, drawRectangle.Center.Y + GameConstants.TEDDY_BEAR_PROJECTILE_OFFSET, GetProjectileYVelocity());
                 Game1.AddProjectile(teddyProjectile);
+                shootSound.Play(0.2f, 0.0f, 0.0f);
             }
-            // timer concept (for animations) introduced in Chapter 7
-
         }
 
         /// <summary>
@@ -159,7 +158,15 @@ namespace GameProject
         /// <param name="spriteBatch">the sprite batch to use</param>
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(sprite, drawRectangle, Color.White);
+            spriteBatch.Draw(sprite, drawRectangle, Color.Silver);
+        }
+
+        /// <summary>
+        /// Plays bouncing sound at a reduced volume
+        /// </summary>       
+        public void BounceSound()
+        {
+            bounceSound.Play(0.2f, 0.0f, 0.0f);
         }
 
         #endregion
@@ -193,12 +200,14 @@ namespace GameProject
                 // bounce off top
                 drawRectangle.Y = 0;
                 velocity.Y *= -1;
+                BounceSound();
             }
             else if ((drawRectangle.Y + drawRectangle.Height) > GameConstants.WINDOW_HEIGHT)
             {
                 // bounce off bottom
                 drawRectangle.Y = GameConstants.WINDOW_HEIGHT - drawRectangle.Height;
                 velocity.Y *= -1;
+                BounceSound();
             }
         }
         /// <summary>
@@ -211,12 +220,14 @@ namespace GameProject
                 // bounc off left
                 drawRectangle.X = 0;
                 velocity.X *= -1;
+                BounceSound();
             }
             else if ((drawRectangle.X + drawRectangle.Width) > GameConstants.WINDOW_WIDTH)
             {
                 // bounce off right
                 drawRectangle.X = GameConstants.WINDOW_WIDTH - drawRectangle.Width;
                 velocity.X *= -1;
+                BounceSound();
             }
         }
 
