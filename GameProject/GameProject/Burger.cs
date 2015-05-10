@@ -63,6 +63,26 @@ namespace GameProject
             get { return drawRectangle; }
         }
 
+        /// <summary>
+        /// Gets the collision rectangle for the burger
+        /// </summary>
+        public int Health
+        {
+            get { return health; }
+            set
+            {
+                health = value;
+                if (health > 100)
+                {
+                    health = 100;
+                }
+                else if (health < 0)
+                {
+                    health = 0;
+                }
+            }
+        }
+
         #endregion
 
         #region Private properties
